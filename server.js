@@ -7,7 +7,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
 
-  res.end("")
+  res.end("Olá mundo")
   // servidos inicia o que está na parte res.end.
 })
 server.listen(port, () => {
