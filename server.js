@@ -13,3 +13,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Servidor iniciou em http://localhost:${port}/`)
 })
+// passa a porta dentro do console.
